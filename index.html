@@ -6,7 +6,7 @@
     <title>Minimalistic Bear</title>
     <style>
         body {
-            background-color: #d2b48c; /* A lighter brown background */
+            background-color: rgba(242, 239, 238, 1); /* The sampled nearly white color */
             display: flex;
             flex-direction: column; /* Stack elements vertically */
             justify-content: center;
@@ -14,10 +14,10 @@
             height: 100vh;
             margin: 0;
             text-align: center; /* Center text */
+            padding-top: 50px; /* Add more space at the top */
         }
         h1 {
-            margin: 0;
-            padding-bottom: 20px; /* Spacing between text and image */
+            margin: 0 0 20px; /* Add more space at the bottom */
             font-family: Arial, sans-serif; /* You can choose any font you like */
             color: #000; /* Text color */
             font-size: 32px; /* Adjust the size as needed */
@@ -25,11 +25,13 @@
         img {
             max-width: 50%; /* Adjust the size of the image as needed */
             height: auto;
+            display: block; /* Ensures that the image is a block element */
+            margin: 0 auto; /* Centers the image horizontally */
         }
     </style>
 </head>
 <body>
-    <h1>hiii <span>&lt;3</span></h1> <!-- Added text above the image -->
+    <h1>hiii <span>&lt;3</span></h1> <!-- Adjusted text position -->
     <img src="https://raw.githubusercontent.com/rayfin-ucsd/rayfin-ucsd.github.io/main/bruh.png" alt="Coquettd Text">
 </body>
 </html>
